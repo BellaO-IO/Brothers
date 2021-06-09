@@ -1,0 +1,16 @@
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("I am computer, what are you?");
+            Var name = Console.ReadLine();
+            Console.WriteLine("So, You are a {name}, I haven't seen one of your kind in a long time. Where are my brothers?");
+            Var brothers = Console.ReadLine();
+            Console.WriteLine("What? They are all {brothers}? I must go find them. Bye.")
+        }
+    }
+}
